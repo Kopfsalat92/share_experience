@@ -12,7 +12,7 @@ import {
   CardImgOverlay
 } from "reactstrap";
 import ModalOne from "./modals";
-//import { Link } from "gatsby";
+import LinesEllipsis from "react-lines-ellipsis";
 
 export default class BlogEntry extends React.Component {
   render() {
@@ -43,9 +43,13 @@ export default class BlogEntry extends React.Component {
           <CardBody className="justify" style={{ paddingTop: "2%" }}>
             <CardText>
               <h2 align="center">{this.props.data.text1}</h2>
-              <p className="text-truncate" align="justify">
-                {this.props.data.text2}
-              </p>
+              <LinesEllipsis
+                text={this.props.data.text2}
+                maxLine="3"
+                ellipsis="..."
+                trimRight
+                basedOn="words"
+              />
             </CardText>
           </CardBody>
           <CardFooter style={{ position: "relative" }}>

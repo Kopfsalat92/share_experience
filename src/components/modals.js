@@ -56,7 +56,7 @@ class ModalOne extends React.Component {
         >
           <ModalHeader>{this.props.data.title}</ModalHeader>
           <ModalBody>
-            <h1> {this.props.data.title}</h1>
+            <p> {this.props.data.text1}</p>
             <br />
             <p align="justify">{this.props.data.text2}</p>
             <br />

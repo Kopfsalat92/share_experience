@@ -1,4 +1,5 @@
 import React from "react";
+import "./design.css";
 import {
   Collapse,
   Navbar,
@@ -35,10 +36,15 @@ export default class Navi extends React.Component {
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink href="/404/">MyBookmarks</NavLink>
-              </NavItem>
-              <NavItem>
+              </NavItem> */}
+              <NavItem
+                style={{
+                  margin: `0 auto`,
+                  padding: `2 rem`
+                }}
+              >
                 <NavLink href="/">Back</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>

@@ -1,23 +1,22 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
-import Navi from "../pages/navi";
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `lightgrey`,
-      marginBottom: `1.50rem`
+      marginBottom: `1,50rem`
     }}
   >
     <div
       style={{
         margin: `0 auto`,
         maxWidth: 1960,
-        padding: `1.50rem 1.0875rem`
+        padding: `1rem 1 rem`
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 align="center" style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
@@ -29,7 +28,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-    <Navi />
+    {/* <Navi /> */}
   </header>
 );
 

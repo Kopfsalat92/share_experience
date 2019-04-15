@@ -1,15 +1,14 @@
 import React from "react";
-//import { Link } from "gatsby";
 import Blog from "../components/blog";
 import Carousel from "../components/carousel";
 import Layout from "../components/layout";
-//import Image from "../components/image";
 import SEO from "../components/seo";
+import "./design.css";
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1 align="center">Welcome on the N°1 page for sharing experiences!</h1>
+    <h1 align="center">Welcome to the N°1 platform for sharing experiences!</h1>
     <Carousel />
     <p>
       You are welcome to leave your unique trip with detailed information for
