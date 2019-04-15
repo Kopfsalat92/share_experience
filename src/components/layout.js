@@ -8,9 +8,6 @@ import Navi from "../pages/navi";
 const blogdata = data.data;
 
 export default class Layout extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     const children = React.Children.map(this.props.children, child => {
       return React.cloneElement(child, {
