@@ -52,6 +52,8 @@ export default class Layout extends React.Component {
             © {new Date().getFullYear()}, Built by
             {` `}
             <a href="mailto:l.doepp@googlemail.com">Leonard Doepp</a>
+            <br />
+            <a href="/datenschutz/">Data protection</a>
           </footer>
         </div>
       </>
