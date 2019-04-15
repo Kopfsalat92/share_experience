@@ -7,21 +7,6 @@ import Navi from "../pages/navi";
 
 const blogdata = data.data;
 
-// const nav = document.querySelector("nav");
-// const navTop = nav.offsetTop;
-
-// function handleScroll() {
-//   if (window.scrollY > navTop) {
-//     nav.classList.add("fixed-nav");
-//     document.body.style.paddingTop = nav.offsetHeight + "px";
-//   } else {
-//     nav.classList.remove("fixed-nav");
-//     document.body.style.paddingTop = 0;
-//   }
-// }
-
-// window.addEventListener("scroll", handleScroll);
-
 export default class Layout extends React.Component {
   constructor(props) {
     super(props);
