@@ -54,9 +54,12 @@ class ModalOne extends React.Component {
           toggle={this.toggle}
           className={this.props.className}
         >
-          <ModalHeader>{this.props.data.title}</ModalHeader>
+          <ModalHeader>
+            <h2 align="center">{this.props.data.title}</h2>
+          </ModalHeader>
           <ModalBody>
-            <p> {this.props.data.text1}</p>
+            <h4> {this.props.data.text1}</h4>
+            <img alt="..." src={this.props.data.img1} />
             <br />
             <p align="justify">{this.props.data.text2}</p>
             <br />

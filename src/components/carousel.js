@@ -12,53 +12,79 @@ import {
 let items = [
   {
     src: "/images/G1.jpg",
-    altText: "Guatemala",
-    caption: "Slide 1"
+    altText: "Guatemala"
   },
   {
     src: "/images/G2.jpg",
-    altText: "Guatemala",
-    caption: "Slide 2"
+    altText: "Guatemala"
   },
   {
     src: "/images/G3.jpg",
-    altText: "Guatemala",
-    caption: "Slide 3"
+    altText: "Guatemala"
   },
   {
     src: "/images/G4.jpg",
-    altText: "Guatemala",
-    caption: "Slide 4"
+    altText: "Guatemala"
   },
   {
     src: "/images/G5.jpg",
-    altText: "Guatemala",
-    caption: "Slide 5"
+    altText: "Guatemala"
   },
   {
     src: "/images/N1.jpg",
-    altText: "Namibia",
-    caption: "Slide 6"
+    altText: "Namibia"
   },
   {
     src: "/images/N2.jpg",
-    altText: "Namibia",
-    caption: "Slide 7"
+    altText: "Namibia"
   },
   {
     src: "/images/N3.jpg",
-    altText: "Namibia",
-    caption: "Slide 8"
+    altText: "Namibia"
   },
   {
     src: "/images/N4.jpg",
-    altText: "Namibia",
-    caption: "Slide 9"
+    altText: "Namibia"
   },
   {
     src: "/images/N5.jpg",
-    altText: "Namibia",
-    caption: "Slide 10"
+    altText: "Namibia"
+  },
+  {
+    src: "/images/Ma1.jpg",
+    altText: "Malawi"
+  },
+  {
+    src: "/images/Ma2.jpg",
+    altText: "Malawi"
+  },
+  {
+    src: "/images/Ma3.jpg",
+    altText: "Malawi"
+  },
+  {
+    src: "/images/Nz1.jpg",
+    altText: "New Zealand"
+  },
+  {
+    src: "/images/Nz2.jpg",
+    altText: "New Zealand"
+  },
+  {
+    src: "/images/Nz3.jpg",
+    altText: "New Zealand"
+  },
+  {
+    src: "/images/M1.jpg",
+    altText: "Mexico"
+  },
+  {
+    src: "/images/M2.jpg",
+    altText: "Mexico"
+  },
+  {
+    src: "/images/M3.jpg",
+    altText: "mexico"
   }
 ];
 
